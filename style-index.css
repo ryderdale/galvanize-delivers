@@ -1,0 +1,158 @@
+ @font-face {
+  font-family: "Roboto-Regular";
+  src: url("fonts/roboto/Roboto-Regular.woff2") format("woff2"),
+       url("fonts/roboto/Roboto-Regular.woff") format("woff");
+}
+
+body {
+	color: white;
+	margin: 0;
+	background-color: white;
+  font-family: Roboto-Regular;
+}
+
+p {
+  color: black;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  color: pink;
+  fill: blue;
+}
+
+.headBar {
+  width: 100%;
+  height: 8%;
+  position: absolute;
+	top: 0%;
+	color: white;
+	background-color: #1464c0;
+	padding: .2%;
+}
+#GalvanizeDelivers1 {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  padding-left: .5%;
+}
+
+#OrderDelivery {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: white;
+  padding-right: 2%;
+}
+
+#home_image {
+	position:absolute;
+  top: 5%;
+	width:100%;
+	height: 55%;
+  z-index: -1;
+}
+
+
+#FineDiningDelivered {
+  text-align: center;
+  margin-top: 16%;
+  font-size: 3em;
+}
+
+#button_place_an_order {
+  padding: 13px 30px 13px 30px;
+  background-color: #f94081;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
+.place-order-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.place-order-button-container a {
+}
+
+.lower_middle_fold {
+  margin-top: .5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+}
+
+.column {
+    margin-top: 8%;
+    float: left;
+    width: 31.32%;
+    padding: 1%;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.why_us_headers {
+  color: #f94081;
+}
+
+@media () {
+  .row:after {
+      display: table;
+      clear: both;
+  }
+}
+
+@media () {
+  .row:after {
+      display: table;
+      clear: both;
+  }
+}
+
+.bottom_fold {
+  color: white;
+  background-color: #1464c0;
+  width: 100%;
+  font-size: 1.5em;
+  height: 23;
+  margin-top: 20%:
+}
+
+.bottom_fold_links {
+  font-size: .6em;
+  line-height: 1;
+  text-decoration: none;
+  color:white;
+  margin-left: -75%;
+}
+
+#galvanize_delivers_bottom_fold {
+  margin-left: 16%;
+  font-size: 1.2em;
+  padding: 1%;
+}
+
+#bottom_fold_fine_dining {
+  margin-left: 17%;
+  font-size: .7em;
+  padding: 0%;
+}
+
+#galvanize_delivers_footer {
+  font-size: 1.5em;
+}
+
+.footer_content {
+  width: 100%;
+  background-color: #0e46a0;
+  font-size: .9em;
+  text-decoration: none;
+}
